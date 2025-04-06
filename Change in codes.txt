@@ -1,0 +1,11 @@
+Server Updates:
+- The server now keeps track of how many attempts were made to guess the number.  
+- Based on the number of tries, it provides a rating:  
+  - Very Good for fewer than 5 attempts  
+  - Good for 7–10 attempts  
+  - Fair for more than 10 attempts  
+
+Client Updates:
+- A bot feature was added that allows automated guessing of the server's random number.  
+- If the bot’s first guess is lower than the target number, it increases its next guess by 1.  
+- If the initial guess is higher, it decreases the next guess by 1.
